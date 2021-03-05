@@ -2,6 +2,7 @@
 
 This repository contains a script to read ticket metrics from Zendesk API. 
 It is currently filtered to only get metrics starting 01/12/2020, but can be easily adjusted.
+It is currently coded to use chromedriver.
 The script gets all tickets created starting from 01/12/2020 to today. After that iterates on each ticket to get it's metrics.
 
 Endpoints used:
