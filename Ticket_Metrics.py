@@ -7,9 +7,9 @@ from selenium.webdriver.common.by import By
 import time
 from cryptography.fernet import Fernet
 
-zendesk_user = '' 
-zendesk_pwd =  b''
-encrypt_key = b''
+zendesk_user = 'breno.zipoli@totvs.com.br' 
+zendesk_pwd =  b'gAAAAABgQRGmRgzX5T094OT6ojeZqrbQnJYj1U4mFKqGSXx7JLJyUUFdHUGzGo5jQR6vBimpzJI2CIt8ohW5NMXlALPJgswm4Q=='
+encrypt_key = b'6b0wmagFCUs_NkkZKFYN3VyoadbDJ1liW25KMwmPUZY='
 
 def get_ticket_metrics(ticket):
     driver.find_element_by_tag_name('body').send_keys(Keys.CONTROL + 't')
